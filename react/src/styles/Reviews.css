@@ -1,0 +1,44 @@
+
+.reviews-div{
+    width: 80%;
+    max-width: 900px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+
+.reviews-title{
+ text-align: left;
+ margin-top: 3rem;
+ margin-bottom: 1rem;
+ font-size: 2rem;
+}
+
+.individual-review{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+/* img{
+    border: 1px solid black;
+} */
+
+.stars{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4rem;    
+}
+
+.star{
+    width: 8rem;
+    min-width: 40px;
+    max-width: 90px;
+}
+
+
+.star-review{
+    width: 2rem;
+    /* min-width: 40px;
+    max-width: 90px; */
+}

@@ -1,0 +1,66 @@
+
+.schedule{
+   width: 50%;
+   justify-content: space-between;
+   display: flex;
+   flex-direction: row;
+}
+
+.contact-div{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    gap:3rem;
+    margin-top: 3rem;
+    padding-bottom:4rem;
+}
+
+.day-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.titles{
+display: flex;
+
+
+}
+
+.contact{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.p-day{
+    font-size: 0.9rem;
+    text-align: right;
+}
+
+
+
+.week1,.week2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-div{
+      flex-direction: column;
+    }
+
+    .schedule{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .week2{
+        display: none;
+    }
+}

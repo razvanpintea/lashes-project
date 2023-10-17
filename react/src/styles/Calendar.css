@@ -1,0 +1,123 @@
+.dates{
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    /* border:1px solid black; */
+    width: 77%;
+    margin: 0 auto;
+    gap:7px;
+    margin-top: 4rem;
+    /* padding: 10px; */
+    justify-content: space-between;    
+}
+
+.individual-date {
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+    width: fit-content;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a smooth transition for background color */
+  
+    /* Normal state styles */
+    background-color: transparent;
+  }
+  
+  .individual-date:hover {
+    /* Hover state styles */
+    background-color: lightgrey; /* Change the background color on hover */
+  }
+
+  .individual-date.selected {
+    /* Selected state styles */
+    background-color: #d4af37; /* Change the background color for selected date */
+    color: white; /* Change text color for selected date */
+    /* border:none; */
+  }
+
+.date-and-month{
+    font-size: 12px;
+}
+
+.day{
+    font-size: 20px;
+    font-weight: 600;
+    width: 30px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.navigation-button-back, .navigation-button-forwards{
+    font-size: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    position: absolute;
+}
+
+.navigation-button-back{
+    top:9rem;
+    left:5px;
+}
+
+.navigation-button-forwards{
+    top:9rem;
+    right:13px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .dates {
+        width: 85%;
+        overflow-x: auto;
+    }
+
+    .navigation-button-back, .navigation-button-forwards{
+        display: none;
+    }
+}
+
+
+
+.times-list{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    flex-wrap: wrap;
+    width: 90%;
+    gap:10px;
+    margin-top: 2rem;
+   
+}
+
+.time-div{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a box shadow with x and y offset, blur radius, and color */
+    width: 6.3rem;
+    padding: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.time-div.selected{
+    background-color: #d4af37;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .time-div{
+        width: 5.5rem;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .time-div{
+        width: 5rem;
+    }
+}
+

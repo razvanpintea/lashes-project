@@ -1,0 +1,29 @@
+.home-div{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lashes-logo{
+    width: 27%;
+}
+
+.homephoto{
+    margin-top: 20px;
+    width: 100%;
+    max-width: fit-content;
+}
+
+.home{
+    /* border: 1px solid black; */
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.logo-div{
+    width: 20rem;
+    border: 1px solid black;
+    background-color: black;
+}

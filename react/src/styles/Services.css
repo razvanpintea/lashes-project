@@ -1,0 +1,17 @@
+.service-info{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    margin-top: 0.6rem;
+    padding-left: 4px;
+    font-size: 0.9rem;
+}
+
+.services-div{
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
